@@ -1,5 +1,5 @@
 class Ship
-  attr_writer :name, :type, :booty
+  attr_reader :name, :type, :booty
   SHIPS = []
 
   def initialize(params)

@@ -5,9 +5,11 @@
 </head>
 <body>
 <h1>Your Pirate Here</h1>
-<%= @pirate.name%>
-<%= @pirate.weight%>
-<%= @pirate.height%>
+<div>
+  <%= @pirate.name%>
+  <%= @pirate.weight%>
+  <%= @pirate.height%>
+</div>
 <h2>Your Ships Here</h2>
 <%@ships.each do %>
 <div class = "ship">

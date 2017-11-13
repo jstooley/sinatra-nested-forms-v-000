@@ -2,9 +2,9 @@ class Pirate
   attr_writer :name, :weight, :height
   PIRATES = []
   def initialize(params)
-    @name = params['pirate']['name']
-    @weight = params['pirate']['weight']
-    @height = params['pirate']['height']
+    @name = params['name']
+    @weight = params['weight']
+    @height = params['height']
     PIRATES << self
   end
 

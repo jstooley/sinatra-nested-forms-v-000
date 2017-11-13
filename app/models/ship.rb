@@ -1,7 +1,7 @@
 class Ship
   attr_writer :name, :type, :booty
   SHIPS = []
-  
+
   def initialize(params)
     @name = params['name']
     @type = params['type']
@@ -10,5 +10,6 @@ class Ship
   end
 
   def self.all
+    SHIPS
   end
 end

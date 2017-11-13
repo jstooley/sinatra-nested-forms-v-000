@@ -5,13 +5,13 @@ module FormsLab
 
     # code other routes/actions here
     get '/' do
-      erb :pirate:new
+      erb :new
     end
 
     post '/pirate' do
       erb :show
     end
-    
+
   end
 
 end

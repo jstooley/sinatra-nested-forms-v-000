@@ -6,4 +6,7 @@ class Pirate
     @weight = params['pirate']['weight']
     @height = params['pirate']['height']
   end
+
+  def self.all 
+  end
 end

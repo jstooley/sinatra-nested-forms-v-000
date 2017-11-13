@@ -1,5 +1,5 @@
 class Pirate
-  attr_writer :name, :weight, :height
+  attr_reader :name, :weight, :height
   PIRATES = []
   def initialize(params)
     @name = params[:name]
